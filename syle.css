@@ -9,3 +9,19 @@ blockquote {
   margin: 0;
   padding: 0;
 }
+nav ul,
+nav ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
