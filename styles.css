@@ -143,3 +143,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
+  .projects article,
+  #page-template #work section article { 
+    width: 50%;
+  }
+  .additinal-projects .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .additinal-projects h2 {
+    flex-basis: 100%;
+  }
