@@ -105,4 +105,33 @@ header.wrapper {
 #mainnav ul li:first-of-type a {
   border: none;
 }
-
+#work {
+  background: #fff;
+  padding: 20px;
+}
+#work img,
+.additinal-projects img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.featured,
+.projects,
+#page-template #work section {
+  margin: bottom 20px;
+}
+#about-contact,
+.additinal-projects {
+padding: 20px;
+}
+#about-contact img {
+  margin-bottom: 10px;
+}
+footer {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 650px) {
+  #work
+  {padding:20px 10px;
+  }}
+  
