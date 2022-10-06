@@ -158,3 +158,55 @@ footer {
     width: 50%;
     padding: 0 10px;
   }
+  #about-contact {padding: 0;
+  }
+  #about-contact .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 10px;
+  }
+  #about-contact .profile-photo {
+    flex: 1;
+    padding: 0 10px;
+    width: 100%;
+  }
+
+  #about-contact article {
+    padding: 0 10px;
+  }
+  #about-contact article:first-of-type {
+    flex: 2;
+  }
+  #about-contact article:last-of-type {
+    flex-basis: 100%;
+  }
+@media only screen and (min-width: 768px) {
+  .featured {
+    display: flex;
+  }
+  .featured article {
+    flex: 1;
+  }
+  .additional-projects article {
+    width: 25%;
+  }
+  #about-contact .wrapper {
+    flex-wrap: nowrap;
+  }
+  #about-contact article:last-of-type {
+    flex: 2;
+    flex-basis: 0;}
+}
+@media only screen and (min-width: 1040px) {
+  .wrapper {
+    width: 1020px;
+    margin: auto;
+  }
+  header .wrapper{
+    padding: 0 10px;
+  }
+  .projects article{
+    width: 33%;
+  }
+}
